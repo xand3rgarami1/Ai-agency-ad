@@ -41,8 +41,8 @@ npm run audio -- --skip-vo   # keep narration, rebuild music/sfx/mix only
 **Logo:** the Twiddle wordmark is in `public/brand/` (`twiddle-logo-white.png` used on the black end
 card, plus a transparent black version). It was cut out of the supplied screenshot; for the sharpest
 result replace it with the original vector file and point `logoSrc` at it. With `logoSrc: null` a
-dashed "LOGO" slot is shown. `showNameWithLogo` prints `agencyName` beside the logo (off, since the
-logo is already the wordmark).
+dashed "LOGO" slot is shown. `showNameWithLogo` sets `agencyName` ("Twiddle Agency") in small caps
+under the logo.
 **URL:** `url: null` hides the line; no URL is invented.
 
 ## Structure

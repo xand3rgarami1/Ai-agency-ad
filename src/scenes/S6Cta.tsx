@@ -95,12 +95,22 @@ export const S6Cta: React.FC = () => {
 
 			<div style={{position: 'absolute', left: 0, right: 0, top: 1400, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 34, ...reveal(brandIn, {y: 24, blur: 10})}}>
 				<div style={{width: 120, height: 2, background: COLORS.purple, opacity: 0.7}} />
-				<div style={{display: 'flex', alignItems: 'center', gap: 24}}>
-					<Logo />
-					{!BRAND.logoSrc || BRAND.showNameWithLogo ? (
+				{BRAND.logoSrc ? (
+					// Logo lockup: wordmark with the agency name set beneath it
+					<div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26}}>
+						<Logo />
+						{BRAND.showNameWithLogo ? (
+							<div style={{fontFamily: FONTS.body, fontSize: 34, fontWeight: 600, letterSpacing: '0.32em', marginRight: '-0.32em', textTransform: 'uppercase', color: COLORS.text2}}>
+								{BRAND.agencyName}
+							</div>
+						) : null}
+					</div>
+				) : (
+					<div style={{display: 'flex', alignItems: 'center', gap: 24}}>
+						<Logo />
 						<div style={{fontFamily: FONTS.display, fontSize: 48, fontWeight: 700, letterSpacing: '-0.02em', color: COLORS.white}}>{BRAND.agencyName}</div>
-					) : null}
-				</div>
+					</div>
+				)}
 			</div>
 		</AbsoluteFill>
 	);
