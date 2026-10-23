@@ -3,16 +3,19 @@
  *
  * - agencyName: shown on the end card. Replace the placeholder with the real name.
  * - logoSrc:    path inside /public (e.g. 'brand/logo.svg') or null to show a placeholder slot.
+ *               Use a light/white version: the end card is black.
+ * - showNameWithLogo: also print agencyName next to the logo (off for wordmark logos).
  * - ctaLabel:   button copy on the end card.
  * - url:        website / booking URL. null hides the line entirely (no invented URL).
  */
 export const BRAND = {
-	agencyName: 'Twiddle Agency Guam',
-	logoSrc: null as string | null,
+	agencyName: 'Twiddle',
+	logoSrc: 'brand/twiddle-logo-white.png' as string | null,
 	ctaLabel: 'Book a Systems Consultation',
 	url: null as string | null,
 	/** Show the dashed "LOGO" slot when no logo is supplied. Set false for a name-only end card. */
 	showLogoPlaceholder: true,
+	showNameWithLogo: false,
 };
 
 export const COLORS = {

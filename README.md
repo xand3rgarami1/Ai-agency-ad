@@ -38,8 +38,11 @@ npm run audio -- --skip-vo   # keep narration, rebuild music/sfx/mix only
 | Scene visuals | `src/scenes/S1Opening.tsx` … `S6Cta.tsx` |
 | Reusable pieces | `src/components/` (kinetic text, scene transitions, connectors, backdrop), `src/ui/` (panels, icons, rows) |
 
-**Logo:** drop a file in `public/brand/` and set `logoSrc: 'brand/logo.svg'`. With `logoSrc: null`
-a dashed "LOGO" slot is shown; set `showLogoPlaceholder: false` for a name-only end card.
+**Logo:** the Twiddle wordmark is in `public/brand/` (`twiddle-logo-white.png` used on the black end
+card, plus a transparent black version). It was cut out of the supplied screenshot; for the sharpest
+result replace it with the original vector file and point `logoSrc` at it. With `logoSrc: null` a
+dashed "LOGO" slot is shown. `showNameWithLogo` prints `agencyName` beside the logo (off, since the
+logo is already the wordmark).
 **URL:** `url: null` hides the line; no URL is invented.
 
 ## Structure

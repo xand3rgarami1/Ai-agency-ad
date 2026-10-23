@@ -6,7 +6,7 @@ import {EASE_IN_OUT, EASE_OUT, mix, prog, reveal} from '../components/anim';
 import {KineticWords, lineWords} from '../components/Text';
 
 const Logo: React.FC = () => {
-	if (BRAND.logoSrc) return <Img src={staticFile(BRAND.logoSrc)} style={{height: 88, width: 'auto'}} />;
+	if (BRAND.logoSrc) return <Img src={staticFile(BRAND.logoSrc)} alt={BRAND.agencyName} style={{height: 100, width: 'auto', display: 'block'}} />;
 	if (!BRAND.showLogoPlaceholder) return null;
 	return (
 		<div
@@ -97,7 +97,9 @@ export const S6Cta: React.FC = () => {
 				<div style={{width: 120, height: 2, background: COLORS.purple, opacity: 0.7}} />
 				<div style={{display: 'flex', alignItems: 'center', gap: 24}}>
 					<Logo />
-					<div style={{fontFamily: FONTS.display, fontSize: 48, fontWeight: 700, letterSpacing: '-0.02em', color: COLORS.white}}>{BRAND.agencyName}</div>
+					{!BRAND.logoSrc || BRAND.showNameWithLogo ? (
+						<div style={{fontFamily: FONTS.display, fontSize: 48, fontWeight: 700, letterSpacing: '-0.02em', color: COLORS.white}}>{BRAND.agencyName}</div>
+					) : null}
 				</div>
 			</div>
 		</AbsoluteFill>
