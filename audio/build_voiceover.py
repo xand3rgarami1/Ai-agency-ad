@@ -1,0 +1,101 @@
+"""Generate the narration with Kokoro (open-weight, Apache-2.0, runs locally) and
+write src/config/timeline.generated.json with line- and word-level timings.
+
+Word timings are estimated: internal pauses (commas) are detected from the audio
+envelope, and words inside each phrase are spread by character length.
+"""
+import json, os, re, sys
+import numpy as np
+import soundfile as sf
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODELS = os.path.join(ROOT, "audio", "models")
+CFG = os.path.join(ROOT, "src", "config", "voiceover.json")
+OUT_JSON = os.path.join(ROOT, "src", "config", "timeline.generated.json")
+OUT_WAV = os.path.join(ROOT, "public", "audio", "vo.wav")
+SR = 48000
+DURATION = 30.0
+THRESH = 0.012
+
+
+def trim(s):
+    idx = np.where(np.abs(s) > THRESH)[0]
+    a, b = max(idx[0] - int(0.03 * len(s) / len(s) * 24000 * 0), 0), idx[-1]
+    # keep 25 ms pre-roll and 60 ms tail so consonants are not clipped
+    a = max(idx[0] - int(0.025 * 24000), 0)
+    b = min(idx[-1] + int(0.06 * 24000), len(s))
+    return s[a:b]
+
+
+def find_pauses(s, sr, n):
+    """Return midpoints (s) of the n longest internal silences, in time order."""
+    win = int(0.01 * sr)
+    env = np.array([np.abs(s[i:i + win]).max() for i in range(0, len(s) - win, win)])
+    quiet = env < THRESH * 1.5
+    runs, start = [], None
+    for i, q in enumerate(quiet):
+        if q and start is None:
+            start = i
+        if not q and start is not None:
+            if start > 5 and i - start >= 6:  # >= 60 ms, not at the very start
+                runs.append((i - start, start, i))
+            start = None
+    runs = sorted(runs, reverse=True)[:n]
+    return sorted([(a * win / sr, b * win / sr) for _, a, b in runs])
+
+
+def word_timings(text, dur, pauses):
+    phrases = [p.strip() for p in re.split(r"(?<=,)\s+", text) if p.strip()]
+    if len(pauses) != len(phrases) - 1:
+        phrases, pauses = [text], []
+    bounds = [0.0] + [x for p in pauses for x in p] + [dur]
+    words = []
+    for k, ph in enumerate(phrases):
+        a, b = bounds[2 * k], bounds[2 * k + 1]
+        toks = ph.split()
+        weights = [len(re.sub(r"[^A-Za-z0-9]", "", t)) + 1.5 for t in toks]
+        tot = sum(weights)
+        t = a
+        for tok, w in zip(toks, weights):
+            d = (b - a) * w / tot
+            words.append({"text": tok, "start": round(t, 3), "end": round(t + d, 3)})
+            t += d
+    return words
+
+
+def main():
+    from kokoro_onnx import Kokoro
+    cfg = json.load(open(CFG))
+    k = Kokoro(os.path.join(MODELS, "kokoro-v1.0.onnx"), os.path.join(MODELS, "voices-v1.0.bin"))
+    track = np.zeros(int(DURATION * SR), dtype=np.float32)
+    t = cfg["leadIn"]
+    lines = []
+    for line in cfg["lines"]:
+        s, sr = k.create(line["text"], voice=cfg["voice"], speed=cfg["speed"], lang="en-us")
+        s = trim(np.asarray(s, dtype=np.float32))
+        dur = len(s) / sr
+        pauses = find_pauses(s, sr, line["text"].count(","))
+        # resample 24k -> 48k
+        from scipy.signal import resample_poly
+        s48 = resample_poly(s, SR, sr).astype(np.float32)
+        i0 = int(round(t * SR))
+        track[i0:i0 + len(s48)] += s48[: len(track) - i0]
+        words = word_timings(line["text"], dur, pauses)
+        for w in words:
+            w["start"] = round(w["start"] + t, 3)
+            w["end"] = round(w["end"] + t, 3)
+        lines.append({"id": line["id"], "text": line["text"], "start": round(t, 3), "end": round(t + dur, 3), "words": words})
+        print(f'{line["id"]:>9}  {t:6.2f} -> {t + dur:6.2f}  pauses={[(round(a,2), round(b,2)) for a, b in pauses]}')
+        t += dur + line["pauseAfter"]
+    if t > DURATION - 1.4:
+        sys.exit(f"Narration ends at {t:.2f}s - too long for a {DURATION}s spot. Raise speed or shorten pauses.")
+    peak = np.abs(track).max()
+    track *= 10 ** (-1 / 20) / peak  # normalise to -1 dBFS; final balance happens in the mix
+    os.makedirs(os.path.dirname(OUT_WAV), exist_ok=True)
+    sf.write(OUT_WAV, track, SR, subtype="PCM_24")
+    json.dump({"fps": 30, "duration": DURATION, "voice": cfg["voice"], "lines": lines}, open(OUT_JSON, "w"), indent=1)
+    print("VO ends at", round(lines[-1]["end"], 2), "s")
+
+
+if __name__ == "__main__":
+    main()

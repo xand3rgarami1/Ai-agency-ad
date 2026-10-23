@@ -1,0 +1,439 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voice": "am_michael",
+ "lines": [
+  {
+   "id": "eight",
+   "text": "Your business didn't reach eight figures by accident.",
+   "start": 0.3,
+   "end": 2.713,
+   "words": [
+    {
+     "text": "Your",
+     "start": 0.3,
+     "end": 0.537
+    },
+    {
+     "text": "business",
+     "start": 0.537,
+     "end": 0.946
+    },
+    {
+     "text": "didn't",
+     "start": 0.946,
+     "end": 1.226
+    },
+    {
+     "text": "reach",
+     "start": 1.226,
+     "end": 1.506
+    },
+    {
+     "text": "eight",
+     "start": 1.506,
+     "end": 1.786
+    },
+    {
+     "text": "figures",
+     "start": 1.786,
+     "end": 2.153
+    },
+    {
+     "text": "by",
+     "start": 2.153,
+     "end": 2.303
+    },
+    {
+     "text": "accident.",
+     "start": 2.303,
+     "end": 2.713
+    }
+   ]
+  },
+  {
+   "id": "holding",
+   "text": "But the systems that got you here might be what's holding you back.",
+   "start": 3.313,
+   "end": 6.444,
+   "words": [
+    {
+     "text": "But",
+     "start": 3.313,
+     "end": 3.507
+    },
+    {
+     "text": "the",
+     "start": 3.507,
+     "end": 3.702
+    },
+    {
+     "text": "systems",
+     "start": 3.702,
+     "end": 4.069
+    },
+    {
+     "text": "that",
+     "start": 4.069,
+     "end": 4.306
+    },
+    {
+     "text": "got",
+     "start": 4.306,
+     "end": 4.501
+    },
+    {
+     "text": "you",
+     "start": 4.501,
+     "end": 4.695
+    },
+    {
+     "text": "here",
+     "start": 4.695,
+     "end": 4.933
+    },
+    {
+     "text": "might",
+     "start": 4.933,
+     "end": 5.214
+    },
+    {
+     "text": "be",
+     "start": 5.214,
+     "end": 5.365
+    },
+    {
+     "text": "what's",
+     "start": 5.365,
+     "end": 5.645
+    },
+    {
+     "text": "holding",
+     "start": 5.645,
+     "end": 6.013
+    },
+    {
+     "text": "you",
+     "start": 6.013,
+     "end": 6.207
+    },
+    {
+     "text": "back.",
+     "start": 6.207,
+     "end": 6.445
+    }
+   ]
+  },
+  {
+   "id": "leads",
+   "text": "Leads slipping through.",
+   "start": 7.044,
+   "end": 8.118,
+   "words": [
+    {
+     "text": "Leads",
+     "start": 7.044,
+     "end": 7.329
+    },
+    {
+     "text": "slipping",
+     "start": 7.329,
+     "end": 7.746
+    },
+    {
+     "text": "through.",
+     "start": 7.746,
+     "end": 8.118
+    }
+   ]
+  },
+  {
+   "id": "orders",
+   "text": "Orders entered manually.",
+   "start": 8.418,
+   "end": 9.783,
+   "words": [
+    {
+     "text": "Orders",
+     "start": 8.418,
+     "end": 8.819
+    },
+    {
+     "text": "entered",
+     "start": 8.819,
+     "end": 9.274
+    },
+    {
+     "text": "manually.",
+     "start": 9.274,
+     "end": 9.783
+    }
+   ]
+  },
+  {
+   "id": "team",
+   "text": "Your team buried in repetitive work.",
+   "start": 10.083,
+   "end": 12.053,
+   "words": [
+    {
+     "text": "Your",
+     "start": 10.083,
+     "end": 10.361
+    },
+    {
+     "text": "team",
+     "start": 10.361,
+     "end": 10.639
+    },
+    {
+     "text": "buried",
+     "start": 10.639,
+     "end": 11.018
+    },
+    {
+     "text": "in",
+     "start": 11.018,
+     "end": 11.194
+    },
+    {
+     "text": "repetitive",
+     "start": 11.194,
+     "end": 11.775
+    },
+    {
+     "text": "work.",
+     "start": 11.775,
+     "end": 12.053
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "text": "We build custom AI systems that connect your operations, automate workflows, and help your business scale without adding more complexity.",
+   "start": 12.753,
+   "end": 20.814,
+   "words": [
+    {
+     "text": "We",
+     "start": 12.753,
+     "end": 12.938
+    },
+    {
+     "text": "build",
+     "start": 12.938,
+     "end": 13.282
+    },
+    {
+     "text": "custom",
+     "start": 13.282,
+     "end": 13.679
+    },
+    {
+     "text": "AI",
+     "start": 13.679,
+     "end": 13.864
+    },
+    {
+     "text": "systems",
+     "start": 13.864,
+     "end": 14.313
+    },
+    {
+     "text": "that",
+     "start": 14.313,
+     "end": 14.604
+    },
+    {
+     "text": "connect",
+     "start": 14.604,
+     "end": 15.054
+    },
+    {
+     "text": "your",
+     "start": 15.054,
+     "end": 15.345
+    },
+    {
+     "text": "operations,",
+     "start": 15.345,
+     "end": 15.953
+    },
+    {
+     "text": "automate",
+     "start": 16.353,
+     "end": 16.928
+    },
+    {
+     "text": "workflows,",
+     "start": 16.928,
+     "end": 17.563
+    },
+    {
+     "text": "and",
+     "start": 17.893,
+     "end": 18.097
+    },
+    {
+     "text": "help",
+     "start": 18.097,
+     "end": 18.346
+    },
+    {
+     "text": "your",
+     "start": 18.346,
+     "end": 18.595
+    },
+    {
+     "text": "business",
+     "start": 18.595,
+     "end": 19.025
+    },
+    {
+     "text": "scale",
+     "start": 19.025,
+     "end": 19.32
+    },
+    {
+     "text": "without",
+     "start": 19.32,
+     "end": 19.705
+    },
+    {
+     "text": "adding",
+     "start": 19.705,
+     "end": 20.044
+    },
+    {
+     "text": "more",
+     "start": 20.044,
+     "end": 20.293
+    },
+    {
+     "text": "complexity.",
+     "start": 20.293,
+     "end": 20.814
+    }
+   ]
+  },
+  {
+   "id": "built",
+   "text": "Built around your business.",
+   "start": 21.364,
+   "end": 22.674,
+   "words": [
+    {
+     "text": "Built",
+     "start": 21.364,
+     "end": 21.658
+    },
+    {
+     "text": "around",
+     "start": 21.658,
+     "end": 21.996
+    },
+    {
+     "text": "your",
+     "start": 21.996,
+     "end": 22.245
+    },
+    {
+     "text": "business.",
+     "start": 22.245,
+     "end": 22.674
+    }
+   ]
+  },
+  {
+   "id": "designed",
+   "text": "Designed for growth.",
+   "start": 22.894,
+   "end": 24.009,
+   "words": [
+    {
+     "text": "Designed",
+     "start": 22.894,
+     "end": 23.387
+    },
+    {
+     "text": "for",
+     "start": 23.387,
+     "end": 23.62
+    },
+    {
+     "text": "growth.",
+     "start": 23.62,
+     "end": 24.009
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "text": "If your systems can't keep up with your revenue, let's fix that.",
+   "start": 24.609,
+   "end": 27.827,
+   "words": [
+    {
+     "text": "If",
+     "start": 24.609,
+     "end": 24.754
+    },
+    {
+     "text": "your",
+     "start": 24.754,
+     "end": 24.981
+    },
+    {
+     "text": "systems",
+     "start": 24.981,
+     "end": 25.333
+    },
+    {
+     "text": "can't",
+     "start": 25.333,
+     "end": 25.56
+    },
+    {
+     "text": "keep",
+     "start": 25.56,
+     "end": 25.788
+    },
+    {
+     "text": "up",
+     "start": 25.788,
+     "end": 25.932
+    },
+    {
+     "text": "with",
+     "start": 25.932,
+     "end": 26.16
+    },
+    {
+     "text": "your",
+     "start": 26.16,
+     "end": 26.387
+    },
+    {
+     "text": "revenue,",
+     "start": 26.387,
+     "end": 26.739
+    },
+    {
+     "text": "let's",
+     "start": 26.999,
+     "end": 27.293
+    },
+    {
+     "text": "fix",
+     "start": 27.293,
+     "end": 27.533
+    },
+    {
+     "text": "that.",
+     "start": 27.533,
+     "end": 27.827
+    }
+   ]
+  }
+ ]
+}

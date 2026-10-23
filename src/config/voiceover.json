@@ -1,0 +1,53 @@
+{
+  "_note": "Source of truth for narration. Edit text/pauses here, then run `npm run audio` to regenerate the VO, timings, music and SFX.",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "leadIn": 0.3,
+  "lines": [
+    {
+      "id": "eight",
+      "text": "Your business didn't reach eight figures by accident.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "holding",
+      "text": "But the systems that got you here might be what's holding you back.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "leads",
+      "text": "Leads slipping through.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "orders",
+      "text": "Orders entered manually.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "team",
+      "text": "Your team buried in repetitive work.",
+      "pauseAfter": 0.7
+    },
+    {
+      "id": "build",
+      "text": "We build custom AI systems that connect your operations, automate workflows, and help your business scale without adding more complexity.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "built",
+      "text": "Built around your business.",
+      "pauseAfter": 0.22
+    },
+    {
+      "id": "designed",
+      "text": "Designed for growth.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "fix",
+      "text": "If your systems can't keep up with your revenue, let's fix that.",
+      "pauseAfter": 0
+    }
+  ]
+}
