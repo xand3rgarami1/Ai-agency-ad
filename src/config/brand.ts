@@ -7,7 +7,7 @@
  * - url:        website / booking URL. null hides the line entirely (no invented URL).
  */
 export const BRAND = {
-	agencyName: 'Agency Name',
+	agencyName: 'Twiddle Agency Guam',
 	logoSrc: null as string | null,
 	ctaLabel: 'Book a Systems Consultation',
 	url: null as string | null,
