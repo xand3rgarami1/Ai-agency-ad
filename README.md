@@ -64,12 +64,12 @@ output/          final MP4 + contact sheet
 
 | Scene | Time | Narration |
 |---|---|---|
-| 1 Opening | 0.00–3.15 | "Your business didn't reach eight figures by accident." |
-| 2 Fragmented systems | 3.15–6.88 | "But the systems that got you here might be what's holding you back." |
-| 3a / 3b / 3c Problems | 6.88–12.43 | "Leads slipping through. Orders entered manually. Your team buried in repetitive work." |
-| 4 Connected system | 12.43–21.10 | "We build custom AI systems that connect … without adding more complexity." |
-| 5 Unified dashboard | 21.10–24.35 | "Built around your business. Designed for growth." |
-| 6 CTA / end card | 24.35–30.00 | "If your systems can't keep up with your revenue, let's fix that." (end card from 26.95, held to 30.0) |
+| 1 Opening | 0.00–3.30 | "Your business didn't reach eight figures by accident." |
+| 2 Fragmented systems | 3.30–7.24 | "But the systems that got you here might be what's holding you back." |
+| 3a / 3b / 3c Problems | 7.24–12.79 | "Leads slipping through. Orders entered manually. Your team buried in repetitive work." |
+| 4 Connected system | 12.79–21.40 | "We build custom AI systems that connect … without adding more complexity." |
+| 5 Unified dashboard | 21.40–24.61 | "Built around your business. Designed for growth." |
+| 6 CTA / end card | 24.61–30.00 | "If your systems can't keep up with your revenue, let's fix that." (end card from ~27.3, held to 30.0) |
 
 Scene boundaries follow the natural narration instead of the brief's nominal storyboard times:
 read at a natural pace, lines 7–9 do not fit the 2 s / 3 s windows in the brief, so every cut is
@@ -77,7 +77,7 @@ anchored to the spoken word in `timeline.json` and stays in sync if the VO is re
 
 ## Notes / limitations
 
-- The narration is synthetic (Kokoro `am_michael`). For a paid campaign, a human voice actor is
+- The narration is synthetic: Kokoro `af_heart`, the model's highest-rated voice, at natural pace (speed 1.03). For a paid campaign, a human voice actor is
   recommended: record against `voiceover/script.md`, replace `public/audio/vo.wav`, run
   `npm run audio -- --skip-vo`, then `npm run render`.
 - The dashboard chart has no axis values and no metrics are claimed; mock UI copy is generic

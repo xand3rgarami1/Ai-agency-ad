@@ -1,7 +1,7 @@
 {
   "_note": "Source of truth for narration. Edit text/pauses here, then run `npm run audio` to regenerate the VO, timings, music and SFX.",
-  "voice": "am_michael",
-  "speed": 1.2,
+  "voice": "af_heart",
+  "speed": 1.03,
   "leadIn": 0.3,
   "lines": [
     {
