@@ -1,0 +1,454 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voice": "af_heart",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Every missed call is a customer calling someone else.",
+   "start": 0.25,
+   "end": 3.049,
+   "words": [
+    {
+     "text": "Every",
+     "start": 0.25,
+     "end": 0.566
+    },
+    {
+     "text": "missed",
+     "start": 0.566,
+     "end": 0.931
+    },
+    {
+     "text": "call",
+     "start": 0.931,
+     "end": 1.199
+    },
+    {
+     "text": "is",
+     "start": 1.199,
+     "end": 1.369
+    },
+    {
+     "text": "a",
+     "start": 1.369,
+     "end": 1.491
+    },
+    {
+     "text": "customer",
+     "start": 1.491,
+     "end": 1.954
+    },
+    {
+     "text": "calling",
+     "start": 1.954,
+     "end": 2.367
+    },
+    {
+     "text": "someone",
+     "start": 2.367,
+     "end": 2.781
+    },
+    {
+     "text": "else.",
+     "start": 2.781,
+     "end": 3.049
+    }
+   ]
+  },
+  {
+   "id": "hours",
+   "text": "After hours.",
+   "start": 3.649,
+   "end": 4.55,
+   "words": [
+    {
+     "text": "After",
+     "start": 3.649,
+     "end": 4.1
+    },
+    {
+     "text": "hours.",
+     "start": 4.1,
+     "end": 4.551
+    }
+   ]
+  },
+  {
+   "id": "line",
+   "text": "On another line.",
+   "start": 4.85,
+   "end": 5.799,
+   "words": [
+    {
+     "text": "On",
+     "start": 4.85,
+     "end": 5.04
+    },
+    {
+     "text": "another",
+     "start": 5.04,
+     "end": 5.501
+    },
+    {
+     "text": "line.",
+     "start": 5.501,
+     "end": 5.799
+    }
+   ]
+  },
+  {
+   "id": "busy",
+   "text": "Too busy to pick up.",
+   "start": 6.099,
+   "end": 7.337,
+   "words": [
+    {
+     "text": "Too",
+     "start": 6.099,
+     "end": 6.347
+    },
+    {
+     "text": "busy",
+     "start": 6.347,
+     "end": 6.649
+    },
+    {
+     "text": "to",
+     "start": 6.649,
+     "end": 6.842
+    },
+    {
+     "text": "pick",
+     "start": 6.842,
+     "end": 7.144
+    },
+    {
+     "text": "up.",
+     "start": 7.144,
+     "end": 7.337
+    }
+   ]
+  },
+  {
+   "id": "value",
+   "text": "Each one could be a sale, a booking, or a contract.",
+   "start": 7.937,
+   "end": 10.858,
+   "words": [
+    {
+     "text": "Each",
+     "start": 7.937,
+     "end": 8.153
+    },
+    {
+     "text": "one",
+     "start": 8.153,
+     "end": 8.33
+    },
+    {
+     "text": "could",
+     "start": 8.33,
+     "end": 8.585
+    },
+    {
+     "text": "be",
+     "start": 8.585,
+     "end": 8.723
+    },
+    {
+     "text": "a",
+     "start": 8.723,
+     "end": 8.821
+    },
+    {
+     "text": "sale,",
+     "start": 8.821,
+     "end": 9.037
+    },
+    {
+     "text": "a",
+     "start": 9.297,
+     "end": 9.436
+    },
+    {
+     "text": "booking,",
+     "start": 9.436,
+     "end": 9.907
+    },
+    {
+     "text": "or",
+     "start": 9.967,
+     "end": 10.168
+    },
+    {
+     "text": "a",
+     "start": 10.168,
+     "end": 10.312
+    },
+    {
+     "text": "contract.",
+     "start": 10.312,
+     "end": 10.858
+    }
+   ]
+  },
+  {
+   "id": "system",
+   "text": "We set up a system that answers, texts back, and books every caller you'd otherwise miss.",
+   "start": 11.508,
+   "end": 16.586,
+   "words": [
+    {
+     "text": "We",
+     "start": 11.508,
+     "end": 11.676
+    },
+    {
+     "text": "set",
+     "start": 11.676,
+     "end": 11.891
+    },
+    {
+     "text": "up",
+     "start": 11.891,
+     "end": 12.059
+    },
+    {
+     "text": "a",
+     "start": 12.059,
+     "end": 12.178
+    },
+    {
+     "text": "system",
+     "start": 12.178,
+     "end": 12.538
+    },
+    {
+     "text": "that",
+     "start": 12.538,
+     "end": 12.801
+    },
+    {
+     "text": "answers,",
+     "start": 12.801,
+     "end": 13.208
+    },
+    {
+     "text": "texts",
+     "start": 13.488,
+     "end": 13.878
+    },
+    {
+     "text": "back,",
+     "start": 13.878,
+     "end": 14.208
+    },
+    {
+     "text": "and",
+     "start": 14.558,
+     "end": 14.754
+    },
+    {
+     "text": "books",
+     "start": 14.754,
+     "end": 15.038
+    },
+    {
+     "text": "every",
+     "start": 15.038,
+     "end": 15.321
+    },
+    {
+     "text": "caller",
+     "start": 15.321,
+     "end": 15.648
+    },
+    {
+     "text": "you'd",
+     "start": 15.648,
+     "end": 15.888
+    },
+    {
+     "text": "otherwise",
+     "start": 15.888,
+     "end": 16.346
+    },
+    {
+     "text": "miss.",
+     "start": 16.346,
+     "end": 16.586
+    }
+   ]
+  },
+  {
+   "id": "money",
+   "text": "That can mean ten to twenty thousand dollars a month, back in your business.",
+   "start": 17.186,
+   "end": 21.022,
+   "words": [
+    {
+     "text": "That",
+     "start": 17.186,
+     "end": 17.411
+    },
+    {
+     "text": "can",
+     "start": 17.411,
+     "end": 17.595
+    },
+    {
+     "text": "mean",
+     "start": 17.595,
+     "end": 17.819
+    },
+    {
+     "text": "ten",
+     "start": 17.819,
+     "end": 18.003
+    },
+    {
+     "text": "to",
+     "start": 18.003,
+     "end": 18.146
+    },
+    {
+     "text": "twenty",
+     "start": 18.146,
+     "end": 18.453
+    },
+    {
+     "text": "thousand",
+     "start": 18.453,
+     "end": 18.841
+    },
+    {
+     "text": "dollars",
+     "start": 18.841,
+     "end": 19.188
+    },
+    {
+     "text": "a",
+     "start": 19.188,
+     "end": 19.29
+    },
+    {
+     "text": "month,",
+     "start": 19.29,
+     "end": 19.556
+    },
+    {
+     "text": "back",
+     "start": 20.026,
+     "end": 20.254
+    },
+    {
+     "text": "in",
+     "start": 20.254,
+     "end": 20.399
+    },
+    {
+     "text": "your",
+     "start": 20.399,
+     "end": 20.627
+    },
+    {
+     "text": "business.",
+     "start": 20.627,
+     "end": 21.022
+    }
+   ]
+  },
+  {
+   "id": "simple",
+   "text": "No new staff. No new software to learn.",
+   "start": 21.622,
+   "end": 23.989,
+   "words": [
+    {
+     "text": "No",
+     "start": 21.622,
+     "end": 21.819
+    },
+    {
+     "text": "new",
+     "start": 21.819,
+     "end": 22.073
+    },
+    {
+     "text": "staff.",
+     "start": 22.073,
+     "end": 22.439
+    },
+    {
+     "text": "No",
+     "start": 22.439,
+     "end": 22.637
+    },
+    {
+     "text": "new",
+     "start": 22.637,
+     "end": 22.89
+    },
+    {
+     "text": "software",
+     "start": 22.89,
+     "end": 23.426
+    },
+    {
+     "text": "to",
+     "start": 23.426,
+     "end": 23.623
+    },
+    {
+     "text": "learn.",
+     "start": 23.623,
+     "end": 23.99
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "Stop losing the calls you've already earned.",
+   "start": 24.589,
+   "end": 26.742,
+   "words": [
+    {
+     "text": "Stop",
+     "start": 24.589,
+     "end": 24.844
+    },
+    {
+     "text": "losing",
+     "start": 24.844,
+     "end": 25.191
+    },
+    {
+     "text": "the",
+     "start": 25.191,
+     "end": 25.399
+    },
+    {
+     "text": "calls",
+     "start": 25.399,
+     "end": 25.7
+    },
+    {
+     "text": "you've",
+     "start": 25.7,
+     "end": 26.001
+    },
+    {
+     "text": "already",
+     "start": 26.001,
+     "end": 26.395
+    },
+    {
+     "text": "earned.",
+     "start": 26.395,
+     "end": 26.742
+    }
+   ]
+  }
+ ]
+}

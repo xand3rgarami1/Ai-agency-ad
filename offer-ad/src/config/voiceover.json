@@ -1,0 +1,53 @@
+{
+  "_note": "Source of truth for narration. Edit text/pauses here, then run `npm run audio`.",
+  "voice": "af_heart",
+  "speed": 0.97,
+  "leadIn": 0.25,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Every missed call is a customer calling someone else.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "hours",
+      "text": "After hours.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "line",
+      "text": "On another line.",
+      "pauseAfter": 0.3
+    },
+    {
+      "id": "busy",
+      "text": "Too busy to pick up.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "value",
+      "text": "Each one could be a sale, a booking, or a contract.",
+      "pauseAfter": 0.65
+    },
+    {
+      "id": "system",
+      "text": "We set up a system that answers, texts back, and books every caller you'd otherwise miss.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "money",
+      "text": "That can mean ten to twenty thousand dollars a month, back in your business.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "simple",
+      "text": "No new staff. No new software to learn.",
+      "pauseAfter": 0.6
+    },
+    {
+      "id": "cta",
+      "text": "Stop losing the calls you've already earned.",
+      "pauseAfter": 0
+    }
+  ]
+}
