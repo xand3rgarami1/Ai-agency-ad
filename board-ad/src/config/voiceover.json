@@ -1,0 +1,53 @@
+{
+  "_note": "Source of truth for narration. Edit text/pauses here, then run `npm run audio`.",
+  "voice": "af_heart",
+  "speed": 1.0,
+  "leadIn": 0.25,
+  "lines": [
+    {
+      "id": "hook",
+      "text": "Your leads live in five places.",
+      "pauseAfter": 0.5
+    },
+    {
+      "id": "sources",
+      "text": "A text. A DM. A sticky note. An email you meant to answer.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "owner",
+      "text": "Nobody knows who owns what, or what happens next.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "cold",
+      "text": "So follow-ups slip, and good leads go cold.",
+      "pauseAfter": 0.65
+    },
+    {
+      "id": "board",
+      "text": "We pull every inquiry into one board.",
+      "pauseAfter": 0.45
+    },
+    {
+      "id": "assign",
+      "text": "Every lead gets an owner, and a next action.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "simple",
+      "text": "Nothing slips. Nothing doubles up.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "team",
+      "text": "Your team always knows what to do next.",
+      "pauseAfter": 0.55
+    },
+    {
+      "id": "cta",
+      "text": "One place for every inquiry. Let's set yours up.",
+      "pauseAfter": 0
+    }
+  ]
+}

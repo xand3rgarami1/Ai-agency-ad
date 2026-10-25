@@ -1,0 +1,449 @@
+{
+ "fps": 30,
+ "duration": 30.0,
+ "voice": "af_heart",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Your leads live in five places.",
+   "start": 0.25,
+   "end": 2.04,
+   "words": [
+    {
+     "text": "Your",
+     "start": 0.25,
+     "end": 0.54
+    },
+    {
+     "text": "leads",
+     "start": 0.54,
+     "end": 0.882
+    },
+    {
+     "text": "live",
+     "start": 0.882,
+     "end": 1.172
+    },
+    {
+     "text": "in",
+     "start": 1.172,
+     "end": 1.356
+    },
+    {
+     "text": "five",
+     "start": 1.356,
+     "end": 1.645
+    },
+    {
+     "text": "places.",
+     "start": 1.645,
+     "end": 2.04
+    }
+   ]
+  },
+  {
+   "id": "sources",
+   "text": "A text. A DM. A sticky note. An email you meant to answer.",
+   "start": 2.54,
+   "end": 6.689,
+   "words": [
+    {
+     "text": "A",
+     "start": 2.54,
+     "end": 2.709
+    },
+    {
+     "text": "text.",
+     "start": 2.709,
+     "end": 3.08
+    },
+    {
+     "text": "A",
+     "start": 3.08,
+     "end": 3.248
+    },
+    {
+     "text": "DM.",
+     "start": 3.248,
+     "end": 3.484
+    },
+    {
+     "text": "A",
+     "start": 3.484,
+     "end": 3.653
+    },
+    {
+     "text": "sticky",
+     "start": 3.653,
+     "end": 4.159
+    },
+    {
+     "text": "note.",
+     "start": 4.159,
+     "end": 4.53
+    },
+    {
+     "text": "An",
+     "start": 4.53,
+     "end": 4.766
+    },
+    {
+     "text": "email",
+     "start": 4.766,
+     "end": 5.205
+    },
+    {
+     "text": "you",
+     "start": 5.205,
+     "end": 5.508
+    },
+    {
+     "text": "meant",
+     "start": 5.508,
+     "end": 5.947
+    },
+    {
+     "text": "to",
+     "start": 5.947,
+     "end": 6.183
+    },
+    {
+     "text": "answer.",
+     "start": 6.183,
+     "end": 6.689
+    }
+   ]
+  },
+  {
+   "id": "owner",
+   "text": "Nobody knows who owns what, or what happens next.",
+   "start": 7.239,
+   "end": 10.124,
+   "words": [
+    {
+     "text": "Nobody",
+     "start": 7.239,
+     "end": 7.615
+    },
+    {
+     "text": "knows",
+     "start": 7.615,
+     "end": 7.941
+    },
+    {
+     "text": "who",
+     "start": 7.941,
+     "end": 8.167
+    },
+    {
+     "text": "owns",
+     "start": 8.167,
+     "end": 8.443
+    },
+    {
+     "text": "what,",
+     "start": 8.443,
+     "end": 8.719
+    },
+    {
+     "text": "or",
+     "start": 8.979,
+     "end": 9.153
+    },
+    {
+     "text": "what",
+     "start": 9.153,
+     "end": 9.427
+    },
+    {
+     "text": "happens",
+     "start": 9.427,
+     "end": 9.85
+    },
+    {
+     "text": "next.",
+     "start": 9.85,
+     "end": 10.124
+    }
+   ]
+  },
+  {
+   "id": "cold",
+   "text": "So follow-ups slip, and good leads go cold.",
+   "start": 10.574,
+   "end": 13.174,
+   "words": [
+    {
+     "text": "So",
+     "start": 10.574,
+     "end": 10.77
+    },
+    {
+     "text": "follow-ups",
+     "start": 10.77,
+     "end": 11.357
+    },
+    {
+     "text": "slip,",
+     "start": 11.357,
+     "end": 11.664
+    },
+    {
+     "text": "and",
+     "start": 11.914,
+     "end": 12.136
+    },
+    {
+     "text": "good",
+     "start": 12.136,
+     "end": 12.408
+    },
+    {
+     "text": "leads",
+     "start": 12.408,
+     "end": 12.73
+    },
+    {
+     "text": "go",
+     "start": 12.73,
+     "end": 12.903
+    },
+    {
+     "text": "cold.",
+     "start": 12.903,
+     "end": 13.175
+    }
+   ]
+  },
+  {
+   "id": "board",
+   "text": "We pull every inquiry into one board.",
+   "start": 13.824,
+   "end": 15.912,
+   "words": [
+    {
+     "text": "We",
+     "start": 13.824,
+     "end": 14.004
+    },
+    {
+     "text": "pull",
+     "start": 14.004,
+     "end": 14.288
+    },
+    {
+     "text": "every",
+     "start": 14.288,
+     "end": 14.623
+    },
+    {
+     "text": "inquiry",
+     "start": 14.623,
+     "end": 15.061
+    },
+    {
+     "text": "into",
+     "start": 15.061,
+     "end": 15.344
+    },
+    {
+     "text": "one",
+     "start": 15.344,
+     "end": 15.576
+    },
+    {
+     "text": "board.",
+     "start": 15.576,
+     "end": 15.911
+    }
+   ]
+  },
+  {
+   "id": "assign",
+   "text": "Every lead gets an owner, and a next action.",
+   "start": 16.362,
+   "end": 18.817,
+   "words": [
+    {
+     "text": "Every",
+     "start": 16.362,
+     "end": 16.662
+    },
+    {
+     "text": "lead",
+     "start": 16.662,
+     "end": 16.916
+    },
+    {
+     "text": "gets",
+     "start": 16.916,
+     "end": 17.17
+    },
+    {
+     "text": "an",
+     "start": 17.17,
+     "end": 17.332
+    },
+    {
+     "text": "owner,",
+     "start": 17.332,
+     "end": 17.632
+    },
+    {
+     "text": "and",
+     "start": 17.882,
+     "end": 18.093
+    },
+    {
+     "text": "a",
+     "start": 18.093,
+     "end": 18.209
+    },
+    {
+     "text": "next",
+     "start": 18.209,
+     "end": 18.467
+    },
+    {
+     "text": "action.",
+     "start": 18.467,
+     "end": 18.818
+    }
+   ]
+  },
+  {
+   "id": "simple",
+   "text": "Nothing slips. Nothing doubles up.",
+   "start": 19.367,
+   "end": 21.41,
+   "words": [
+    {
+     "text": "Nothing",
+     "start": 19.367,
+     "end": 19.856
+    },
+    {
+     "text": "slips.",
+     "start": 19.856,
+     "end": 20.23
+    },
+    {
+     "text": "Nothing",
+     "start": 20.23,
+     "end": 20.719
+    },
+    {
+     "text": "doubles",
+     "start": 20.719,
+     "end": 21.208
+    },
+    {
+     "text": "up.",
+     "start": 21.208,
+     "end": 21.41
+    }
+   ]
+  },
+  {
+   "id": "team",
+   "text": "Your team always knows what to do next.",
+   "start": 21.96,
+   "end": 24.053,
+   "words": [
+    {
+     "text": "Your",
+     "start": 21.96,
+     "end": 22.228
+    },
+    {
+     "text": "team",
+     "start": 22.228,
+     "end": 22.495
+    },
+    {
+     "text": "always",
+     "start": 22.495,
+     "end": 22.86
+    },
+    {
+     "text": "knows",
+     "start": 22.86,
+     "end": 23.177
+    },
+    {
+     "text": "what",
+     "start": 23.177,
+     "end": 23.445
+    },
+    {
+     "text": "to",
+     "start": 23.445,
+     "end": 23.615
+    },
+    {
+     "text": "do",
+     "start": 23.615,
+     "end": 23.785
+    },
+    {
+     "text": "next.",
+     "start": 23.785,
+     "end": 24.053
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "text": "One place for every inquiry. Let's set yours up.",
+   "start": 24.603,
+   "end": 27.359,
+   "words": [
+    {
+     "text": "One",
+     "start": 24.603,
+     "end": 24.849
+    },
+    {
+     "text": "place",
+     "start": 24.849,
+     "end": 25.203
+    },
+    {
+     "text": "for",
+     "start": 25.203,
+     "end": 25.449
+    },
+    {
+     "text": "every",
+     "start": 25.449,
+     "end": 25.804
+    },
+    {
+     "text": "inquiry.",
+     "start": 25.804,
+     "end": 26.268
+    },
+    {
+     "text": "Let's",
+     "start": 26.268,
+     "end": 26.568
+    },
+    {
+     "text": "set",
+     "start": 26.568,
+     "end": 26.813
+    },
+    {
+     "text": "yours",
+     "start": 26.813,
+     "end": 27.168
+    },
+    {
+     "text": "up.",
+     "start": 27.168,
+     "end": 27.359
+    }
+   ]
+  }
+ ]
+}

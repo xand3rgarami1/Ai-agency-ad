@@ -1,0 +1,175 @@
+{
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 30
+  },
+  "_note": "Scene boundaries and cues anchored to narration words ('line:wordIndex'). Read by the scenes and audio/build_audio.py. Scene ids fragmented/leads/system/unified/cta/endcard also drive the music arrangement.",
+  "scenes": {
+    "opening": {
+      "at": 0
+    },
+    "fragmented": {
+      "at": "sources:0",
+      "offset": -0.15
+    },
+    "leads": {
+      "at": "owner:0",
+      "offset": -0.2
+    },
+    "system": {
+      "at": "board:0",
+      "offset": -0.3
+    },
+    "unified": {
+      "at": "assign:0",
+      "offset": -0.25
+    },
+    "simple": {
+      "at": "simple:0",
+      "offset": -0.2
+    },
+    "cta": {
+      "at": "cta:0",
+      "offset": -0.2
+    },
+    "endcard": {
+      "at": "cta:5",
+      "offset": -0.1
+    }
+  },
+  "cues": [
+    {
+      "id": "s1.open",
+      "type": "impactSoft",
+      "at": 0.03
+    },
+    {
+      "id": "s1.chips",
+      "type": "stack",
+      "at": "hook:1",
+      "dur": 0.8,
+      "count": 5
+    },
+    {
+      "id": "s1.five",
+      "type": "impact",
+      "at": "hook:4",
+      "offset": -0.04
+    },
+    {
+      "id": "s2.text",
+      "type": "click",
+      "at": "sources:1"
+    },
+    {
+      "id": "s2.dm",
+      "type": "click",
+      "at": "sources:3"
+    },
+    {
+      "id": "s2.note",
+      "type": "click",
+      "at": "sources:5"
+    },
+    {
+      "id": "s2.email",
+      "type": "click",
+      "at": "sources:8"
+    },
+    {
+      "id": "s3.in",
+      "type": "cut",
+      "at": "scene:leads"
+    },
+    {
+      "id": "s3.q1",
+      "type": "blip",
+      "at": "owner:3"
+    },
+    {
+      "id": "s3.q2",
+      "type": "blip",
+      "at": "owner:7"
+    },
+    {
+      "id": "s3.cold",
+      "type": "slide",
+      "at": "cold:6",
+      "offset": -0.1
+    },
+    {
+      "id": "s3.riser",
+      "type": "riser",
+      "at": "scene:system",
+      "dur": 1.0
+    },
+    {
+      "id": "s4.drop",
+      "type": "impact",
+      "at": "scene:system"
+    },
+    {
+      "id": "s4.fly",
+      "type": "stack",
+      "at": "board:2",
+      "dur": 1.1,
+      "count": 4
+    },
+    {
+      "id": "s4.board",
+      "type": "shimmer",
+      "at": "board:6",
+      "offset": -0.05
+    },
+    {
+      "id": "s5.owner",
+      "type": "stack",
+      "at": "assign:4",
+      "offset": -0.1,
+      "dur": 0.6,
+      "count": 4
+    },
+    {
+      "id": "s5.next",
+      "type": "stack",
+      "at": "assign:7",
+      "offset": -0.05,
+      "dur": 0.6,
+      "count": 4
+    },
+    {
+      "id": "s6.slips",
+      "type": "check",
+      "at": "simple:0"
+    },
+    {
+      "id": "s6.doubles",
+      "type": "check",
+      "at": "simple:2"
+    },
+    {
+      "id": "s6.team",
+      "type": "chime",
+      "at": "team:3"
+    },
+    {
+      "id": "s7.in",
+      "type": "whoosh",
+      "at": "scene:cta",
+      "offset": -0.1
+    },
+    {
+      "id": "s7.resolve",
+      "type": "resolve",
+      "at": "scene:endcard"
+    },
+    {
+      "id": "s7.cta",
+      "type": "click",
+      "at": "scene:endcard",
+      "offset": 0.5
+    }
+  ]
+}
