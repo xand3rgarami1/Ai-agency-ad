@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: dental-clinic-20s-reel
+expected_outcome: |
+  A rendered 1080x1920 30 fps H.264/AAC MP4 of about 20 seconds with narration of the exact script, word-synced kinetic text, navy/white/teal styling, a Book Now end card, a clearly marked logo placeholder and no invented URL, verified with measured specs and inspected frames.

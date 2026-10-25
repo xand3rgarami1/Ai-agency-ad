@@ -1,0 +1,5 @@
+node_modules/
+audio/models/
+out/
+.DS_Store
+*.log

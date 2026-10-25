@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: square-saas-launch-15s
+expected_outcome: |
+  A rendered 1080x1080 MP4 of about 15 seconds with the exact script narrated, lime-on-black styling, legible mock app UI (receipts, bank matching, month close), the ledgerline.app URL on the end card, and verified specs and loudness.

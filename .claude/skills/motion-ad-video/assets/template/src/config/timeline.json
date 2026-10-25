@@ -1,0 +1,58 @@
+{
+  "format": { "width": 1080, "height": 1920, "fps": 30, "duration": 30 },
+  "_note": "format is the single source for size, frame rate and runtime (seconds). Scene boundaries and sound/visual cues. Times are anchors into the narration ('lineId:wordIndex' = that word's start, 'lineId:end' = end of line) or absolute seconds, plus an optional offset. Both the Remotion scenes and audio/build_audio.py read this file, so picture and sound stay locked together.",
+  "scenes": {
+    "opening":    { "at": 0 },
+    "fragmented": { "at": "holding:0", "offset": -0.16 },
+    "leads":      { "at": "leads:0", "offset": -0.16 },
+    "orders":     { "at": "orders:0", "offset": -0.14 },
+    "team":       { "at": "team:0", "offset": -0.14 },
+    "system":     { "at": "build:0", "offset": -0.32 },
+    "unified":    { "at": "built:0", "offset": -0.26 },
+    "cta":        { "at": "fix:0", "offset": -0.26 },
+    "endcard":    { "at": "fix:9", "offset": -0.05 }
+  },
+  "cues": [
+    { "id": "s1.open",     "type": "impactSoft", "at": 0.03 },
+    { "id": "s1.eight",    "type": "impact",     "at": "eight:4", "offset": -0.04 },
+    { "id": "s1.accident", "type": "tick",       "at": "eight:7" },
+
+    { "id": "s2.in",       "type": "whoosh",     "at": "scene:fragmented", "offset": -0.12 },
+    { "id": "s2.p1",       "type": "click",      "at": "scene:fragmented", "offset": 0.10 },
+    { "id": "s2.p2",       "type": "click",      "at": "scene:fragmented", "offset": 0.28 },
+    { "id": "s2.p3",       "type": "click",      "at": "scene:fragmented", "offset": 0.46 },
+    { "id": "s2.p4",       "type": "click",      "at": "scene:fragmented", "offset": 0.64 },
+    { "id": "s2.error",    "type": "blip",       "at": "holding:7", "offset": -0.05 },
+    { "id": "s2.holding",  "type": "impact",     "at": "holding:10", "offset": -0.05 },
+
+    { "id": "s3a.in",      "type": "cut",        "at": "scene:leads" },
+    { "id": "s3a.drop",    "type": "click",      "at": "scene:leads", "offset": 0.12 },
+    { "id": "s3a.slip",    "type": "slide",      "at": "leads:2", "offset": -0.1 },
+    { "id": "s3b.in",      "type": "cut",        "at": "scene:orders" },
+    { "id": "s3b.typing",  "type": "typing",     "at": "scene:orders", "offset": 0.16, "dur": 1.38, "count": 21 },
+    { "id": "s3c.in",      "type": "cut",        "at": "scene:team" },
+    { "id": "s3c.stack",   "type": "stack",      "at": "scene:team", "offset": 0.12, "dur": 1.95, "count": 11 },
+    { "id": "s3.riser",    "type": "riser",      "at": "scene:system", "dur": 1.3 },
+
+    { "id": "s4.drop",     "type": "impact",     "at": "scene:system" },
+    { "id": "s4.align",    "type": "click",      "at": "build:3", "offset": 0.0 },
+    { "id": "s4.connect",  "type": "shimmer",    "at": "build:6" },
+    { "id": "s4.order",    "type": "chime",      "at": "build:9" },
+    { "id": "s4.flow1",    "type": "pulse",      "at": "build:9", "offset": 0.42 },
+    { "id": "s4.flow2",    "type": "pulse",      "at": "build:9", "offset": 0.80 },
+    { "id": "s4.doc",      "type": "scan",       "at": "build:10" },
+    { "id": "s4.task1",    "type": "check",      "at": "build:11", "offset": 0.05 },
+    { "id": "s4.task2",    "type": "check",      "at": "build:11", "offset": 0.33 },
+    { "id": "s4.task3",    "type": "check",      "at": "build:11", "offset": 0.61 },
+    { "id": "s4.task4",    "type": "check",      "at": "build:11", "offset": 0.89 },
+    { "id": "s4.scale",    "type": "whoosh",     "at": "build:15", "offset": -0.15 },
+
+    { "id": "s5.in",       "type": "impactSoft", "at": "scene:unified" },
+    { "id": "s5.built",    "type": "tick",       "at": "built:0" },
+    { "id": "s5.designed", "type": "tick",       "at": "designed:0" },
+
+    { "id": "s6.in",       "type": "whoosh",     "at": "scene:cta", "offset": -0.1 },
+    { "id": "s6.fix",      "type": "resolve",    "at": "fix:9", "offset": -0.03 },
+    { "id": "s6.cta",      "type": "click",      "at": "scene:endcard", "offset": 0.55 }
+  ]
+}
